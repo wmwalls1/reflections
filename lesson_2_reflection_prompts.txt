@@ -1,37 +1,16 @@
-How did viewing a diff between two versions of a file help you see the bug that
-was introduced?
+What happens when you initialize a repository? Why do you need to do it?
+A .git folder is created for the metadata, and git looks to see what files are available to commit.
 
-    It narrowed down where I was looking for the change that caused the issue.
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is an area to temporarily store files until you are ready to commit them all together. It 
+provides the ability to package or group like changes prior to the commit.
 
-How could having easy access to the entire history of a file make you a more
-efficient programmer in the long term?
+How can you use the staging area to make sure you have one commit per logical change?
+Only add the files you want to commit and verify what is in the staging area with the git status command.
 
-    By allowing to see all of the changes as a file has evolved.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches could be used for individual projects or for specific requirements. This would allow testing of individual
+changes independently of each other.
 
-What do you think are the pros and cons of manually choosing when to create a
-commit, like you do in Git, vs having versions automatically saved, like Google
-docs does?
-
-    Having the developer control the commit will better ensure that each logical
-	change is independent and also prevent commits mid-stream when the code might
-	not even compile.
-
-Why do you think some version control systems, like Git, allow saving multiple
-files in one commit, while others, like Google Docs, treat each file separately?
-
-    The purpose of the tools are different; Git allows for a commit to be across
-	multiple files so that functional changes can be committed together.
-
-How can you use the commands git log and git diff to view the history of files?
-
-    Git log will show all of the commit ids. Then you can use the commit IDs to 
-	view the differences from one commit to another.
-
-How might using version control make you more confident to make changes that
-could break something?
-
-    Knowing I can revert back to an old version.
-
-Now that you have your workspace set up, what do you want to try using Git for?
-
-    I don't....I like AccuRev.
+How do the diagrams help you visualize the branch structure?
+It helps understand the lineage of the changes and which changes will be shown in the log.
