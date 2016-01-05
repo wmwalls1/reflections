@@ -18,3 +18,6 @@ It helps understand the lineage of the changes and which changes will be shown i
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 All changes from the lastest commit in each branch are merged together into a new commit, thus combining all code from both
 branches. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pro - saves time; con - can mess stuff up
