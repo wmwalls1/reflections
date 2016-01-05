@@ -14,3 +14,7 @@ changes independently of each other.
 
 How do the diagrams help you visualize the branch structure?
 It helps understand the lineage of the changes and which changes will be shown in the log.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+All changes from the lastest commit in each branch are merged together into a new commit, thus combining all code from both
+branches. 
