@@ -9,4 +9,5 @@ Fork - Remote clone of a repository on GitHub
 Clone - Local copy of a repository
 Branch - Used for parallel development from the same base
 
-
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Offline working with the latest code
