@@ -14,3 +14,7 @@ Offline working with the latest code
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 By using a better Version Control system such as AccuRev.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Use a separate branch when you do not wish to disturb the master code base until testing is complete for a given change.
+
